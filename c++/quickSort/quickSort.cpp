@@ -7,8 +7,8 @@ void swap(int arr[], int a, int b);
 
 int main()
 {
-    int testArr[] = {8, 6, 45, 36, 1, 25, 3, 17, 2, 3};
-    // int testArr[] = {100, 5, 69, 25, 3, 11, 7, 6, 200, 36, 15, 2};
+    // int testArr[] = {8, 6, 45, 36, 1, 25, 3, 17, 2, 3};
+    int testArr[] = {100, 5, 69, 25, 3, 11, 7, 6, 200, 36, 15, 2};
 
     int length = sizeof(testArr) / sizeof(testArr[0]);
 
