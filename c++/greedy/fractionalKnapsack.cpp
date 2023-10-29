@@ -48,20 +48,13 @@ int main()
 
     int W = 50;
     Item arr[] = {{60, 10}, {100, 20}, {120, 30}};
+    // ans:240
+
+    // int W = 10;
+    // Item arr[] = {{10, 3}, {15, 3}, {10, 2}, {12, 5}, {8, 1}};
+    // ans: 45.4
     int N = sizeof(arr) / sizeof(arr[0]);
 
     cout << "Total profit = " << fractionalKnapSack(W, arr, N) << endl;
-    return 0;
-}
-
-int main()
-{
-
-    int W = 50;
-    Item arr[] = {{60, 10}, {100, 20}, {120, 30}};
-    int N = sizeof(arr) / sizeof(arr[0]);
-
-    cout << "Total Profit = " << fractionalKnapSack(W, arr, N) << endl;
-
     return 0;
 }
