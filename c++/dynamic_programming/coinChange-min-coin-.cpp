@@ -44,5 +44,6 @@ int main()
     int n = sizeof(coins) / sizeof(coins[0]);
 
     cout << "Min number of coins = " << coinChange(n, 12, coins);
+
     return 0;
 }
